@@ -10,10 +10,10 @@ O programa é escrito em Javascript, linguagem interpretada por navegadores web,
 
 
 
-### Bibliotecas Utilizadas:
- React - Framework base da aplicação
- Axios - Biblioteca para requisições de api
- FontAwesome - Biblioteca de ícones
+### Bibliotecas Utilizadas
+ - React - Framework base da aplicação
+ - Axios - Biblioteca para requisições de api
+ - FontAwesome - Biblioteca de ícones
 
 
 
