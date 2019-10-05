@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+
+}
+
+body {
+  background-color: #96ffec;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 50%;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+
+.App button.btn{
+  border: 0;
+  border-radius: 2px;
+  max-width: 60px;
+  height: 42px;
+  padding: 0 20px;
+  font-size: 16px;
+  font-weight: bold;
+  background: #fa5fed;
+  color: #fff;
+  cursor: pointer;
+}
+
+.App form input {
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 2px;
+  height: 45px;
+  padding: 0 15px;
+  font-size: 16px;
+  width: 50%;
+  border-radius: 4px;
+}
+
+.App form input#number{
+  width: 10%;
+}
+
+.App form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.App form .search{
+  width: 100%;
+}
+
+.App .filters input{
+  width: 80%;
+  height: 90%;
+}
+
+.App .filters{
+  display: flex;
+  flex-direction: row wrap;
+  align-items: center;
+  margin-left: 10%;
+}
+
+
+.App .filters select{
+  margin-left: 5px;
+  margin-bottom: 5px;
+  border-radius: 4px;
+  height: 25px;
+  margin: 2.5%;
+}
+
+
+#number{
+  margin-top: 3%;
+  margin-left: 5px;
+  border-radius: 4px;
+}
+
+ul.images-list{
+    width: 100%;
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 20px;
+    margin-bottom: 30px;
+}
+
+ul.images-list li header {
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+    border-radius: 4px;
+}
+
+
+#numberImg {
+  display: flex;
+  flex-direction: row;
+  background: #fff;
+  border-radius: 4px;
+  height: 25px;
+  min-width: 155px;
+}
+
+#numberImg input{
+  min-width: 50px;
+  max-height: 15px;
+  border: none;
+}
+
+#numberImg h5{
+  padding-top: 2%;
+}
